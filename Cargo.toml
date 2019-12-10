@@ -1,0 +1,16 @@
+[package]
+name = "kvfmt"
+version = "0.1.5"
+authors = ["Jane Lusby <jlusby@yaah.dev>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/yaahc/kvfmt"
+homepage = "https://github.com/yaahc/kvfmt"
+documentation = "https://docs.rs/kvfmt"
+keywords = ["structured", "fmt", "format", "key", "value"]
+description = """
+A helper macro for stringifying variables into a key=value style string
+"""
+
+[dependencies]
